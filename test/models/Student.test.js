@@ -30,7 +30,7 @@ describe("Unit Tests for the Student class", () => {
         expect(allemails).toStrictEqual(["elpepe1@mail.com","elpepe3@mail.com"]);
     });
 
-    test("Method getAllEmailsWithCertification work", () => {
+    test("Method getAllStudentsWithCreditsGreaterThan work", () => {
         const allstdscredit = Student.getAllStudentsWithCreditsGreaterThan(dbstudents, 500);
         expect(allstdscredit).toStrictEqual([
             {
